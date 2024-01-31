@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body {
+    background-color: rgba(243, 245, 252, 1);
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.cabecalho h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 6rem;
+    color: #0A3871;
+
+}
+
+.cabecalho img {
+    max-width: 90px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+    margin-left: 25px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: rgba(243, 245, 252, 1);
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo {
+    display: flex;
+    justify-content: center;
+}
+
+.campo_box {
+    width: 400px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #0A3871;
+    font-size: 24px;
+}
+
+#campo_box_texto {
+    margin-top: 1rem;
+    height: 25rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    color: #0A3871;
+    resize: none;
+    outline: 0;
+}
+
+.campo_box img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 2rem;
+
+
+}
+
+.campo_box p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #0A3871;
+    font-size: 14px;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 300px;
+    height: 529px;
+    margin-left: 25%;
+    box-shadow: 0px -8px 32px rgba(0, 0, 0, 0.08);
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+}
+
+#output h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 19px;
+    padding: 12px;
+}
+
+#output span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    color: #495057;
+
+}
+
+#output img {
+    width: 300px;
+    height: 220px;
+}
+
+.button {
+    margin-left: 12%;
+    display: flex;
+    gap: 24px;
+    justify-content: left;
+}
+
+.button__botaoCriptografar {
+    padding: 24px;
+    width: 228px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: #fff;
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.button__botaoDescriptografar {
+    padding: 24px;
+    width: 228px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    color: #0A3871;
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.copy {
+    padding: 24px;
+    width: 228px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    color: #0A3871;
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-left: 2rem;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: -7%;
+}
+
+.rodape h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #0A3871;
+    font-size: 24px;
+    margin-top: 1rem;
+}
+
+.icons ion-icon {
+    width: 25px;
+    height: 25px;
+    color: #0A3871;
+}
